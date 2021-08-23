@@ -1,0 +1,274 @@
+header {
+    border-bottom: 1px solid #CACACA;
+    font-family: 'poppins';
+}
+
+.footer-btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-btn {
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 25px;
+    color: #616161;
+}
+
+.sub-title {
+    font-size: 20px;
+    color: #CBCBCB;
+}
+
+
+.save-btn,
+.discard-btn {
+    background: transparent;
+    border-radius: 25px;
+    border: 2px solid;
+    width: 200px;
+}
+
+.save-btn {
+    color: #35a245;
+    border-color: #35a245;
+    margin-right: 10px;
+}
+
+
+.discard-btn {
+    color: #E90E0E;
+    border-color: #E90E0E;
+}
+
+
+.save-btn:hover {
+    background: #35a245;
+    color: white;
+}
+
+.discard-btn:hover {
+    background: #E90E0E;
+    color: white;
+}
+
+
+
+.edit-profile-btn {
+    border: 2px solid #616161;
+    border-radius: 0 0 8px 8px;
+    font-weight: 500;
+    color: #616161;
+    height: 45px;
+    line-height: 27px;
+}
+
+.edit-profile-btn:hover {
+    background: #616161;
+    color: #fff;
+}
+
+.copy-container:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-self: start;
+}
+
+.profile-picture {
+    width: 60%;
+}
+
+.picture {
+    border: 2px solid #616161;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+}
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover {
+    box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+    transition: 0s;
+}
+
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover {
+    box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+    transition: 0s;
+}
+
+
+.nama-lengkap,
+.nip,
+.nis,
+.row-2,
+.jenis-kelamin,
+.nomor-telepon,
+.email,
+.mata-pelajaran,
+.alamat {
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #61616133, 10px 10px 20px #61616133;
+    color: #616161;
+}
+
+.nama-lengkap,
+.nip,
+.nis,
+.tempat-lahir,
+.tanggal-lahir,
+.jenis-kelamin,
+.nomor-telepon,
+.email,
+.mata-pelajaran {
+    width: 50%;
+    height: 90px;
+}
+
+.separator {
+    background: #61616133;
+    width: 2px;
+}
+
+.alamat {
+    height: 180px;
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #61616175
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #616161;
+}
+
+
+/* edit page */
+
+.form-input {
+    box-shadow: none;
+}
+
+.form-input input,
+.form-input textarea,
+.form-input select {
+    outline: none;
+    border: none;
+    padding: 0;
+    height: 60%;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6161616e;
+}
+
+.form-input label {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.form-input input::placeholder,
+.form-input textarea::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    color: #6161616e;
+}
+
+
+.form-input input:focus,
+.form-input textarea:focus,
+.form-input select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+
+}
+
+.profile-btn {
+    width: 50%;
+}
+
+.upload-btn {
+    border-radius: 0 0 0 10px;
+    border-right: none;
+    font-size: 14px;
+}
+
+.delete-btn {
+    font-size: 14px;
+    border-radius: 0 0 10px 0;
+}
+
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.custom-select select {
+    display: none;
+    /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}

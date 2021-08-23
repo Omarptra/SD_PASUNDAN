@@ -1,0 +1,114 @@
+@media (max-width: 1024px) {
+    .profile-picture {
+        width: 70%;
+    }
+
+    .profile-picture a {
+        font-size: 11px;
+    }
+
+    .picture {
+        width: 100%;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+    .footer-btn {
+        position: absolute !important;
+        width: 1px !important;
+        height: 1px !important;
+        padding: 0 !important;
+        margin: -1px !important;
+        overflow: hidden !important;
+        clip: rect(0, 0, 0, 0) !important;
+        white-space: nowrap !important;
+        border: 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-btn {
+        display: none;
+    }
+
+    .profile-picture {
+        width: 100%;
+    }
+
+    .picture {
+        width: 100%;
+    }
+
+    .row-1,
+    .row-2,
+    .row-3,
+    .row-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-2 {
+        box-shadow: none;
+    }
+
+    .tempat-lahir,
+    .tanggal-lahir {
+        box-shadow: 10px 10px 30px #61616133, 10px 10px 20px #61616133;
+        border-radius: 10px;
+    }
+
+    .tanggal-lahir {
+        padding-left: 1rem !important;
+        margin-top: -23px;
+    }
+
+    .nama-lengkap,
+    .nip,
+    .tempat-lahir,
+    .tanggal-lahir,
+    .jenis-kelamin,
+    .nomor-telepon,
+    .email,
+    .mata-pelajaran,
+    .alamat {
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .copy-container {
+        width: 100%;
+    }
+
+    .profile-picture {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+
+    .picture {
+        width: 100%;
+    }
+
+    .alamat {
+        height: 250px;
+    }
+}
+
+@media (max-width:320px) {
+    .profile-picture a {
+        font-size: 12px;
+    }
+
+    .footer-btn a {
+        font-size: 13px;
+    }
+
+}
